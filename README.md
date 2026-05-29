@@ -140,7 +140,7 @@ This improved the model stability, prediction accuracy and R^2 performance.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/RETAIL-SALES-DASHBOARD.git
+git clone https://github.com/PRAVEENKUMAR229/Retail-Sales-Dashboard.git
 
 # Navigate to project folder
 cd RETAIL-SALES-DASHBOARD
