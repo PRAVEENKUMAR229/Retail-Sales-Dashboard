@@ -6,10 +6,24 @@ machine learning model training, and an interactive Streamlit dashboard.
 
 ---
 
+## Live Dashboard
+[Open Dashboard](https://retail-sales-dashboard-4h7zdvbgsrjfenq7najf6s.streamlit.app/)
+
 ## Dashboard Preview
 
 > Sales KPIs | Charts | Profit Trends | Segment Analysis | Sales Prediction | Model Comparison | Business Insights
 The Interactive Dashboard provides business insights through visualizations and enables live sales prediction using a trained XGBoost regression model
+
+![](visuals/kpi.jpeg)
+![](visuals/sales_analysis.jpeg)
+![](visuals/sales_analysis2.jpeg)
+![](visuals/discount_vs_profit.jpeg)
+![](visuals/profit_trend.jpeg)
+![](visuals/segment_analysis.jpeg)
+![](visuals/predicted_sales.jpeg)
+![](visuals/model_performance_comparison.jpeg)
+![](visuals/R2_score.jpeg)
+![](visuals/Business_Insights.jpeg)
 
 ---
 
