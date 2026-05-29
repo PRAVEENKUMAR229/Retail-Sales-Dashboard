@@ -6,7 +6,7 @@ import joblib
 
 #page configuration and layout
 st.set_page_config(page_title = "Retail Sales Dashboard", layout = "wide")
-df = pd.read_csv("data/Sample - Superstore.csv"", encoding='latin-1') # load the dataset
+df = pd.read_csv("data/Sample - Superstore.csv", encoding='latin-1') # load the dataset
 df['Order Date'] = pd.to_datetime(df['Order Date']) #convert Order Date to datetime format
 df['Ship Date'] = pd.to_datetime(df['Ship Date'])
 df['Year'] = df['Order Date'].dt.year
