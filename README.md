@@ -59,7 +59,6 @@ RETAIL-SALES-DASHBOARD/
 ├── README.md
 └── requirements.txt
 ```
-git 
 ---
 
 ## What This Project Does
