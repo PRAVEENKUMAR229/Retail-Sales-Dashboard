@@ -6,7 +6,7 @@ import joblib
 
 #page configuration and layout
 st.set_page_config(page_title = "Retail Sales Dashboard", layout = "wide")
-df = pd.read_csv(r"C:\Users\HP\Desktop\Retail-Sales-Dashboard\data\Sample - Superstore.csv", encoding='latin-1') # load the dataset
+df = pd.read_csv("data/Sample - Superstore.csv"", encoding='latin-1') # load the dataset
 df['Order Date'] = pd.to_datetime(df['Order Date']) #convert Order Date to datetime format
 df['Ship Date'] = pd.to_datetime(df['Ship Date'])
 df['Year'] = df['Order Date'].dt.year
@@ -15,7 +15,7 @@ df['Day'] = df['Order Date'].dt.day
 df['Quarter'] = df['Order Date'].dt.quarter
 df['Shipping Duration'] = (df['Ship Date']-df['Order Date']).dt.days  #shipping Duration # ship date minus order date
 
-model = joblib.load(r"C:\Users\HP\Desktop\Retail-Sales-Dashboard\models\best_model.pkl") # loading the saved model
+model = joblib.load("models/best_model.pkl") # loading the saved model
 st.title("Retail Business Intelligence & Sales Forecasting Dashboard")
 st.markdown("This dashboard analyzes retail sales performance, profitability trends,customer segments, and demand forecasting using machine learning.")
 
