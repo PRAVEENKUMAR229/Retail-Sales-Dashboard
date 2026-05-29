@@ -41,11 +41,25 @@ RETAIL-SALES-DASHBOARD/
 ├── notebooks/
 │   └── analysis.ipynb
 │
+├── visuals/
+│   ├── Business_Insights.jpeg
+│   ├── correlation_heatmap.png
+│   ├── discount_vs_profit.jpeg
+│   ├── kpi.jpeg
+│   ├── log_transform.png
+│   ├── model_performance_comparison.jpeg
+│   ├── predicted_sales.jpeg
+│   ├── profit_trend.jpeg
+│   ├── R2_score.jpeg
+│   ├── sales_analysis.jpeg
+│   ├── sales_analysis2.jpeg
+│   └── segment_analysis.jpeg
+│
 ├── app.py
 ├── README.md
 └── requirements.txt
 ```
-
+git 
 ---
 
 ## What This Project Does
